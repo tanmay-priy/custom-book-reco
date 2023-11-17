@@ -5,7 +5,7 @@ import sys
 import os
 
 print(os.listdir())
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'your-key'
 
 def construct_index(directory_path):
     max_input_size = 4096
